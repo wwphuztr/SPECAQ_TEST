@@ -1,0 +1,25 @@
+{
+  "google": {
+    "dev": "https://dev.cloud.google.com/",
+    "stag": "https://stag.cloud.google.com/",
+    "prod": "https://cloud.google.com/",
+    "env": "prod",
+    "timeout": 15,
+    "browser": "chrome",
+    "path": {
+      "screenshot": "screenshot"
+    },
+    "route": {
+      "login": "login",
+      "home": "home"
+    },
+    "web_driver_path": {
+      "linux": {
+        "chrome": "/usr/local/bin/chromedriver-linux64/chromedriver"
+      },
+      "win": {
+        "chrome": "src/main/java/com/fnb/web/webdriver/windown/chrome/chromedriver.exe"
+      }
+    }
+  }
+}

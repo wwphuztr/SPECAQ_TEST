@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite for Web platform">
+    <test name="test for google">
+        <parameter name="platform" value="admin"/>
+        <classes>
+            <class name="web.scenario_tests.GoogleCloudTest"></class>
+        </classes>
+    </test>
+</suite>
